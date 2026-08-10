@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=DM+Mono:wght@400;500&display=swap');
+@import 'tailwindcss';
+
+@theme inline {
+  --font-sans: 'Outfit', sans-serif;
+  --font-mono: 'DM Mono', monospace;
+  --color-background: #0a0f0d;
+  --color-surface: #111916;
+  --color-card: #161e1a;
+  --color-border: #1f2e27;
+  --color-teal: #2dd4a0;
+  --color-teal-dim: #1a8a67;
+  --color-text: #e8f0ec;
+  --color-muted: #6b8878;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  background-color: #0a0f0d;
+  color: #e8f0ec;
+  margin: 0;
+}
